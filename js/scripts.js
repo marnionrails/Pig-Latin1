@@ -1,6 +1,9 @@
 function pigLatin(string) {
-  
-  return string.concat("way")
+  if (string[0] === "a" || "e" || "i" || "o" || "u") {
+    return string.concat("way")
+  } else {
+    return false;
+  }
 }
 
 
