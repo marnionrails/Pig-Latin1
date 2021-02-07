@@ -22,8 +22,8 @@ Test: "It will add 'way' to the end of words that begin with a vowel"
 Expect(pigLatin("a")).toEqual("away");
 
 Test #2
-Test:
-Expect:
+Test: "It will add 'way' to the end of any word that begins with a vowel."
+Expect: (pigLatin("even")).toEqual("evenway");
 
 Test #3
 Test:

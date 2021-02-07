@@ -1,5 +1,7 @@
-function pigLatin(word) {
-  return "away";
+function pigLatin(string) {
+  
+  return string.concat("way")
 }
 
-console.log(pigLatin("a"));
+
+console.log(pigLatin("even"));
