@@ -1,39 +1,72 @@
-# _{Application Name}_
+# _Pig Latin_
 
-#### _{Brief description of application}_
+#### _Pig Latin Translator_
+#### _February 7th 2021_
 
-#### By _**{List of contributors}**_
-
-## Technologies Used
-
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+#### By _**Garrett Brown** **Marni Sucher**_
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+__
+
+## Specs
+Rules: 
+    * _Words that begin with a vowel, add "way" to the end._
+    * _Words that begin with one or more consonants, move all of the first consecutive consonants to the end, and add "ay"._
+    * _If the first consonants include "qu", move the "u" along with the "q"._
+    * _For words beginning with "y", treat "y" as a consonant._
+
+Test #1
+Describe: `pigLatin()`
+Test: "It will add 'way' to the end of words that begin with a vowel"
+Expect(pigLatin("a")).toEqual("away");
+
+Test #2
+Test:
+Expect:
+
+Test #3
+Test:
+Expect:
+
+Test #4
+Test:
+Expect:
+
+Test #5
+Test:
+Expect:
+
+Test #6
+Test:
+Expect:
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+* _Open terminal and navigate to 'Desktop'._
+* _In terminal, type 'git clone https://github.com/marnionrails/Pig-Latin' and press enter._
+* _In terminal, type 'cd Pig-Latin' and press enter._
+* _In terminal, type 'code .' and press enter to open project in VS Code._
+* _Right click on 'index.html' and select 'Open with Live Server' to view page in your favorite web browser._
+
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+_There are currently no known bugs._
 
-## License
+## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_For support, please contact Garrett Brown at <garrettpaulbrown@gmail.com> or Marni Sucher at <suchermarni@gmail.com>_
 
-## Contact Information
+## Technologies Used
 
-_{Add your contact information here.}_
+* _HTML, CSS, JS_
+* _Bootstrap, JQuery_
+* _VS Code_
+
+### License
+
+*Available under MIT Licensing*
+
+Copyright (c) 2021 **_Garrett Brown_** **_Marni Sucher_**
